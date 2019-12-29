@@ -1,0 +1,7 @@
+https://doc.qt.io/qt-5/android-openssl-support.html
+
+
+export ANDROID_NDK_HOME="/usr/lib/android/sdk/ndk-bundle"
+export PATH="/usr/lib/android/sdk/ndk-bundle/toolchains/llvm/prebuilt/linux-x86_64/bin":$PATH
+./Configure shared android-armv7 -D__ANDROID_API__=18
+make SHLIB_VERSION_NUMBER= SHLIB_EXT=_1_1.so build_libs
