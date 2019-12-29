@@ -2,7 +2,7 @@
 
 Cross-platform examples with Qt Location
 
-## Run on Samsung i9300
+## Run on Samsung i9300 (there is OpenGL ES 2.0 support, but mapbox isn't working...)
 
 With [mapboxgl](https://www.mapbox.com/qt/) plugin
 
