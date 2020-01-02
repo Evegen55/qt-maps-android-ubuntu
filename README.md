@@ -1,13 +1,32 @@
 # Qt5 maps on android and linux/ubuntu
 
-Cross-platform examples with Qt Location
+Cross-platform examples with Qt Location, Sensors and so on
+
+## Run on Ubuntu 16.04
+
+
+Maps with OpenStreetMap plugin
+
+![**OSM plugin**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/1.png)
+
+Maps with [mapboxgl](https://www.mapbox.com/qt/) plugin
+
+![**mapboxgl plugin**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/2.png)
+
+Sensors
+
+![**sensors**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/3.png)
 
 ## Run on Samsung i9300 (there is OpenGL ES 2.0 support, but mapbox isn't working...)
 
-With [mapboxgl](https://www.mapbox.com/qt/) plugin
+Maps with OpenStreetMap plugin
 
-![**mapboxgl plugin**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/Screenshot_2019-12-30-01-53-09.png)
+![**OSM plugin**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/1.1.png)
 
-With OpenStreetMap plugin
+Maps with [mapboxgl](https://www.mapbox.com/qt/) plugin
 
-![**OSM plugin**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/Screenshot_2019-12-30-01-53-21.png)
+![**mapboxgl plugin**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/2.1.png)
+
+Sensors
+
+![**sensors**](https://raw.githubusercontent.com/Evegen55/qt-maps-android-ubuntu/master/readme/3.1.png)
