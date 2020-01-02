@@ -1,4 +1,4 @@
-QT += quick qml network positioning location
+QT += quick qml network positioning location sensors widgets
 
 CONFIG += c++11
 

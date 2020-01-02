@@ -7,16 +7,39 @@ ApplicationWindow {
     height: 1280
     title: qsTr("Tabs")
 
+    //    menu containing two menu items
+    menuBar: MenuBar {
+        Menu {
+            title: qsTr("File")
+            MenuItem {
+                text: qsTr("&Open")
+                onTriggered: console.log("Open action triggered");
+            }
+            MenuItem {
+                text: qsTr("Exit")
+                onTriggered: {
+                    console.log("Application closed.");
+                    Qt.quit();
+                }
+            }
+        }
+    }
+
     SwipeView {
         id: swipeView
         anchors.fill: parent
         currentIndex: tabBar.currentIndex
 
-        Page1Form {
+
+        PageWithMapOSMForm {
         }
 
-        Page2Form {
+        PageWithMapMapboxGLForm {
         }
+
+        PageWithSensors{
+        }
+
     }
 
     footer: TabBar {
@@ -24,10 +47,13 @@ ApplicationWindow {
         currentIndex: swipeView.currentIndex
 
         TabButton {
-            text: qsTr("mapboxgl plugin")
+            text: qsTr("OSM map")
         }
         TabButton {
-            text: qsTr("OSM plugin")
+            text: qsTr("MapboxGL")
+        }
+        TabButton {
+            text: qsTr("sensors")
         }
     }
 }

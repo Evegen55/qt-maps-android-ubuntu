@@ -12,6 +12,15 @@ Page {
     Plugin {
         id: mapboxglPlugin
         name: "mapboxgl"
+
+        PluginParameter {
+            name: "mapboxgl.mapping.additional_style_urls"
+            value: "mapbox://styles/mapbox/cjf4m44iw0uza2spb3q0a7s41"
+        }
+//        PluginParameter {
+//            name: "mapboxgl.mapping.use_fbo"
+//            value: "false"
+//        }
     }
 
     Map {
