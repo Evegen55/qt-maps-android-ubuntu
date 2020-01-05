@@ -20,7 +20,7 @@ Item {
         anchors.fill: parent
 
         Component.onCompleted: {
-            console.log(height);
+            console.log("screen height: ", height);
         }
 
 

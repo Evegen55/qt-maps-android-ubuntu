@@ -2,8 +2,9 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>PageWithMapMapboxGLForm.ui.qml</file>
-        <file>PageWithMapOSMForm.ui.qml</file>
+        <file>PageWithMapOSMForm.qml</file>
         <file>qtquickcontrols2.conf</file>
         <file>PageWithSensors.qml</file>
+        <file>static/174-free-google-maps-pointer.png</file>
     </qresource>
 </RCC>
