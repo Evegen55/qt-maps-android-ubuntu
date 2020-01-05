@@ -10,12 +10,14 @@ Item {
     visible: true
 
     PositionSource {
+        id: positionSource
         active: true
+        updateInterval: 1000
         preferredPositioningMethods: PositionSource.AllPositioningMethods
         onPositionChanged: {
             var coord = position.coordinate;
             console.log("Coordinate:", coord.longitude, coord.latitude);
-//            osm_map.center = coord;
+            osm_map.center = coord;
         }
     }
 
